@@ -35,7 +35,8 @@ Business Demo/
 - **Product Segmentation**: Group products for better targeting and assortment.  
 - **Market Basket Analysis**: Association rules for cross-sell/upsell strategies.  
 - **Automation Pipeline**: `process_daily.py` runs daily analytics automatically.  
-- **Web App**: Interactive dashboards using Streamlit/Dash.  
+- **Web App**: Interactive dashboards using Streamlit/Dash.
+- **Deployment**: Deployed app via Docker + cloud service (GCP).
 
 ---
 
@@ -84,22 +85,18 @@ streamlit run app/main.py
 ```
 
 
-📊 Example Use Cases
-```
-Detecting sales anomalies in daily reports.
-Segmenting customers for personalized marketing.
-Forecasting product demand to optimize inventory.
-Identifying frequently bought together items for cross-selling.
-```
+📊 Example Use Cases:
+  - Detecting sales anomalies in daily reports.
+  - Segmenting customers for personalized marketing.
+  - Forecasting product demand to optimize inventory.
+  - Identifying frequently bought together items for cross-selling.
 
 📌 Future Improvements:
-```
-Add an LLM so that the user can ask natural language questions about the database or the insights drived
-Add a database integration (PostgreSQL/MySQL).
-Integrate Airflow/Prefect for orchestration.
-Extend forecasting with advanced deep learning models (LSTM, Transformer).
-Deploy app via Docker + cloud service (AWS/GCP/Azure).
-```
+  - Add an LLM so that the user can ask natural language questions about the database or the insights drived
+  - Add a database integration (PostgreSQL/MySQL).
+  - Integrate Airflow/Prefect for orchestration.
+  - Extend forecasting with advanced deep learning models (LSTM, Transformer).
+
 
 
 👤 Author:
